@@ -37,6 +37,8 @@ public class Board {
     }
 
     public void placePiece(Piece piece, Position position) {
+        // Inserts a piece into a position on the board
+
         if(thereIsAPiece(position)) {
             throw new BoardException("There is alredy a piece on position " + position);
         }
