@@ -9,6 +9,10 @@ import chess.Color;
 public class Pawn extends ChessPiece {
     private ChessMatch chessMatch;
 
+    public Pawn(Board board, Color color) {
+        super(board, color);
+    }
+
     public Pawn(Board board, Color color, ChessMatch chessMatch) {
         super(board, color);
         this.chessMatch = chessMatch;
