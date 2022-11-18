@@ -33,7 +33,7 @@ public class Board {
     }
 
     public Piece piece(Position position) {
-        // Returns the position of a piece
+        // returns a piece at a given position
         return pieces[position.getRow()][position.getColumn()];
     }
 
